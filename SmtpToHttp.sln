@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpToHttp", "src\SmtpToHttp\SmtpToHttp.csproj", "{6695E9A4-CCCD-4C3A-B55B-C7F176A16094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30B08739-D8E7-4282-9DBE-8DAEAC026D6F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6695E9A4-CCCD-4C3A-B55B-C7F176A16094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6695E9A4-CCCD-4C3A-B55B-C7F176A16094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6695E9A4-CCCD-4C3A-B55B-C7F176A16094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6695E9A4-CCCD-4C3A-B55B-C7F176A16094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC05EB2-7091-4764-B17F-1C5E812400C3}
+	EndGlobalSection
+EndGlobal

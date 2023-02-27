@@ -1,0 +1,11 @@
+﻿global using MimeKit;
+global using SmtpServer;
+global using SmtpServer.Protocol;
+global using SmtpServer.Storage;
+global using SmtpToHttp;
+global using SmtpToHttp.Configurations;
+global using SmtpToHttp.Models;
+global using SmtpToHttp.Services;
+global using System.Buffers;
+global using System.Net.Http.Json;
+global using System.Text.Json;
