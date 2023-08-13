@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/SmtpToHttp/SmtpToHttp.csproj", "./"]
+COPY ["SmtpToHttp.csproj", "./"]
 RUN dotnet restore "./SmtpToHttp.csproj"
 COPY . .
 
