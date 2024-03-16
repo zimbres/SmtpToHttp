@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["SmtpToHttp.csproj", "./"]
 RUN dotnet restore "./SmtpToHttp.csproj"
@@ -15,7 +15,7 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
     fi \
     && dotnet publish "SmtpToHttp.csproj" -c Release -o /app/publish -r $RID --self-contained false
 
-FROM mcr.microsoft.com/dotnet/runtime:6.0 AS final
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
